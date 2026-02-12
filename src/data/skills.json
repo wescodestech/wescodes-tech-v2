@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "name": "Languages & Frameworks",
+      "icon": "code",
+      "skills": [
+        { "name": "Java"},
+        { "name": "JavaScript"},
+        { "name": "TypeScript" },
+        { "name": "C#" },
+        { "name": "C/C++" },
+        { "name": "Next.js" },
+        { "name": "Node.js" },
+        { "name": "React" },
+        { "name": "Angular" },
+        { "name": "Spring Boot" }
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "icon": "cloud",
+      "skills": [
+        { "name": "AWS"},
+        { "name": "Docker"},
+        { "name": "Kubernetes"},
+        { "name": "Azure"},
+        { "name": "CI/CD"},
+        { "name": "GitLab"},
+        { "name": "Jenkins" }
+      ]
+    },
+    {
+      "name": "Databases & Data",
+      "icon": "database",
+      "skills": [
+        { "name": "Microsoft SQL Server"},
+        { "name": "Oracle"},
+        { "name": "Redis"},
+        { "name": "Apache Kafka"},
+        { "name": "Elasticsearch"},
+        { "name": "Data Modeling"},
+        { "name": "SQL & NoSQL"}
+      ]
+    },
+    {
+      "name": "Architecture & Design",
+      "icon": "boxes",
+      "skills": [
+        { "name": "Microservices" },
+        { "name": "System Design" },
+        { "name": "API Design" },
+        { "name": "Event-Driven Architecture" },
+        { "name": "Domain-Driven Design" },
+        { "name": "Design Patterns" },
+        { "name": "Scalability" },
+        { "name": "Performance Optimization" }
+      ]
+    },
+    {
+      "name": "Leadership & Management",
+      "icon": "users",
+      "skills": [
+        { "name": "Technical Leadership" },
+        { "name": "Team Mentoring" },
+        { "name": "Code Review" },
+        { "name": "Agile/Scrum" },
+        { "name": "Project Planning" },
+        { "name": "Stakeholder Management" },
+        { "name": "Engineering Process" },
+        { "name": "Technical Writing" }
+      ]
+    },
+    {
+      "name": "Tools & Practices",
+      "icon": "wrench",
+      "skills": [
+        { "name": "Git" },
+        { "name": "Testing (Unit/Integration/E2E)" },
+        { "name": "Monitoring & Observability" },
+        { "name": "Security Best Practices" },
+        { "name": "Performance Profiling" },
+        { "name": "Documentation" },
+        { "name": "Debugging" },
+        { "name": "DevOps Practices" }
+      ]
+    }
+  ]
+}

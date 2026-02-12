@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Gradient backgrounds */
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+  }
+
+  .gradient-secondary {
+    background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+  }
+
+  .gradient-accent {
+    background: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+  }
+
+  /* Glassmorphism effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .dark .glass {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

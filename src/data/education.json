@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "institution": "University of Kansas",
+    "degree": "Master of Science",
+    "field": "Engineering Management",
+    "location": "Lawrence, KS",
+    "description": "Oral Thesis in effective technical leadership. Leading development projects, teams across multiple locations in person and remotely."
+  },
+  {
+    "id": "2",
+    "institution": "University of Oklahoma",
+    "degree": "Bachelor of Science",
+    "field": "Computer Science",
+    "location": "Norman, OK",
+    "honors": [
+      "ACM Local President and Secretary"
+    ],
+    "description": "Focused on algorithms, data structures, systems programming, and practical Sofware Engineering."
+  }
+]

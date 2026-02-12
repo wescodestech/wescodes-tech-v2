@@ -1,0 +1,147 @@
+[
+  {
+    "id": "1",
+    "slug": "catalog-platform",
+    "title": "Catalog Platform Enablement",
+    "description": "Platform-wide modernization of the enterprise catalog system, including new microservices, APIs, and infrastructure",
+    "longDescription": "Led platform-wide modernization of the enterprise catalog system, a critical component supporting downstream ordering and provisioning systems. The initiative included designing and implementing new microservices to enhance catalog functionality and re-architecting CI/CD pipelines to improve deployment efficiency.\n\nThe project resulted in improved system reliability, accelerated release velocity, and strengthened compliance posture. The new architecture supports future scalability and innovation while maintaining high standards for code quality and operational excellence. Additionally, I helped integrate major system upgrades, infrastucture, and security controls with passwordless SSO. These efforts saw a 60% faster data processing and 53% faster publishing performance with zero downtime or rollbacks during the transition.",
+    "image": "/images/projects/catalog-modernization.png",
+    "images": [
+      "/images/projects/catalog-modernization.png"
+    ],
+    "technologies": [
+      "Java",
+      "TypeScript",
+      "React",
+      "Kubernetes",
+      "GitLab CI/CD",
+      "Spring Boot"
+    ],
+    "category": "Backend Systems",
+    "featured": true,
+    "highlights": [
+      "Increased data processing speed by 60%",
+      "Increased publishing performance by 53%",
+      "Opened the platform for future innovation and scalability",
+      "Completed with zero downtime or rollbacks"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "catalog-ai-integration",
+    "title": "Natual Language Querying for Catalog Data",
+    "description": "Supporting business users and developers in interacting with catalog data using conversational language through AI-powered natural language querying capabilities.",
+    "longDescription": "Designed and implemented AI-powered natural language querying capabilities for the enterprise catalog system, enabling business users and developers to interact with catalog data using conversational language.\n\nThe solution leverages OpenAI, Claude, and Snowflake language models to interpret user queries and translate them into structured database queries. This allows users to ask complex questions about catalog data without needing to understand the underlying data schema or write SQL or structure API calls. The integration has significantly improved accessibility and usability of catalog data, empowering teams to make data-driven decisions more efficiently and limit support request to the development team to generate more complex queries.",
+    "image": "/images/projects/catalog-ai.png",
+    "technologies": [
+      "Java",
+      "TypeScript",
+      "React",
+      "Snowflake",
+      "OpenAI API"
+    ],
+    "category": "AI and Analytics",
+    "featured": true,
+    "liveUrl": "https://t-mobile.com",
+    "highlights": [
+      "Supported business users and developers in interacting with catalog data using conversational language",
+      "Increased accessibility and usability of catalog data",
+      "Enabled user driven analytics and insights"
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "cp-pay-modernization",
+    "title": "Cloud-Native Payment Transaction Growth",
+    "description": "Re-architecting the CP Pay payments platform to a cloud-native architecture, enabling it to handle 500% transaction growth while improving performance and reliability.",
+    "longDescription": "Led the re-architecture of the CP Pay payments platform to a cloud-native architecture, enabling it to handle 500% transaction growth while improving performance and reliability. The modernization effort included migrating the platform to Azure and adopting a microservices architecture.\n\nThe new architecture has significantly improved the scalability and resilience of the payments platform, allowing it to efficiently handle increased transaction volumes while maintaining high availability. Additionally, the modernization has enabled faster development cycles and easier maintenance, positioning CP Pay for continued growth and innovation in the local government payments space.",
+    "image": "/images/projects/cp-pay.png",
+    "liveUrl": "https://www.civicplus.com/tools/civicplus-pay/",
+    "technologies": [
+      "C#",
+      ".Net Core",
+      "React",
+      "Azure",
+      "Microsoft SQL Server"
+    ],
+    "category": "Cloud & DevOps",
+    "featured": true,
+    "highlights": [
+      "Handled 500% transaction growth",
+      "Improved performance and reliability",
+      "Enabled faster development cycles and easier maintenance",
+      "Positioned CP Pay for continued growth and innovation",
+      "Migrated to Azure and adopted microservices architecture"
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "civic-engage-ui-library",
+    "title": "Establishing a Standardized UI Component Library for CivicEngage",
+    "description": "Utilizing React and TypeScript to create a standardized UI component library for CivicEngage, improving consistency and developer efficiency across the platform.",
+    "longDescription": "Established a standardized UI component library for CivicEngage using React and TypeScript, improving consistency and developer efficiency across the platform. The library includes a wide range of reusable components that adhere to accessibility standards and design guidelines.\n\nThe implementation of the UI component library has led to faster development cycles, improved user experience, and a more cohesive look and feel across the CivicPlus and CivicEngage platforms. It has also facilitated better collaboration between design and development teams, ensuring that new features are implemented with a consistent visual language and high-quality user interface across dozens of applications.",
+    "image": "/images/projects/cp-react.png",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "React Styleguide",
+      "Node.js",
+      "Azure"
+    ],
+    "category": "Frameworks & Libraries",
+    "featured": false,
+    "liveUrl": "https://preamble-ui.azurewebsites.net/",
+    "highlights": [
+      "Improved consistency and developer efficiency across the platform",
+      "Faster development cycles and improved user experience",
+      "More cohesive look and feel across the CivicPlus and CivicEngage platforms"
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "garmin-gemini-navigation-sdk",
+    "title": "Next Generation Navigation SDK for Garmin Gemini",
+    "description": "Developed the next generation navigation product for Garmin. A high-performance 3D navigation core built on a flexible, modular architecture.",
+    "longDescription": "Developed the next generation navigation product for Garmin, a high-performance 3D navigation core built on a flexible, modular architecture. The new navigation SDK provides enhanced performance, improved accuracy, and a richer set of features for developers building navigation applications on Garmin devices and Automotive OEM applications.\n\nThe project involved designing and implementing a scalable architecture that can handle complex navigation scenarios while maintaining low latency and high reliability. The SDK includes abstracting advanced routing algorithms, real-time traffic updates, and support for various map data formats. It has been successfully integrated into Garmin's automotive OEM market offerings, providing a superior navigation experience for users.",
+    "image": "/images/projects/garmin-nav.webp",
+    "technologies": [
+      "C++",
+      "Qt",
+      "JavaScript",
+      "Linux",
+      "Python"
+    ],
+    "category": "Software Development",
+    "featured": false,
+    "liveUrl": "https://fleetnewsdaily.com/garmin-announces-new-high-performance-navigation-core-auto-oem-market/",
+    "highlights": [
+      "Introduced high-resolution 3D building rendering",
+      "Flexible, modular architecture for navigation SDKs",
+      "Integrated into various OEM in-vehicle Applications",
+      "OTA Updates for navigation features and map data"
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "garmin-honda-partnership",
+    "title": "Garmin Integrated into Honda Infotainment Systems",
+    "description": "Garmin's navigation technology integrated into various Honda vehicle infotainment systems, providing millions of installations worldwide with high user satisfaction and positive reviews.",
+    "longDescription": "Garmin's navigation technology has been integrated into various Honda vehicle infotainment systems, providing millions of installations worldwide with high user satisfaction and positive reviews. The partnership between Garmin and Honda has resulted in a seamless navigation experience for drivers, with features such as real-time traffic updates, voice-guided directions, and intuitive user interfaces.\n\nThe integration of Garmin's navigation technology into Honda's infotainment systems has been well-received by users, contributing to the overall appeal and functionality of Honda vehicles. This collaboration has strengthened Garmin's presence in the automotive market and showcased the company's commitment to delivering high-quality navigation solutions for drivers around the world.",
+    "image": "/images/projects/garmin-honda.webp",
+    "technologies": [
+      "C++",
+      "JavaScript",
+      "Python",
+      "Java",
+      "Android"
+    ],
+    "category": "Software Development",
+    "featured": false,
+    "liveUrl": "https://www.garmin.com/en-US/newsroom/press-release/automotive/2015-garmin-expands-multiyear-in-dash-navigation-partnership-for-new-honda-models/",
+    "highlights": [
+      "Integrated into various Honda vehicle infotainment systems",
+      "Millions of installations worldwide",
+      "High user satisfaction and positive reviews"
+    ]
+  }
+]

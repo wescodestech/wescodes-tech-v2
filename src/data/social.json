@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/wescodestech",
+    "icon": "github",
+    "username": "wescodestech"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://linkedin.com/in/wesleyrhowell",
+    "icon": "linkedin",
+    "username": "wesleyrhowell"
+  },
+  {
+    "platform": "Email",
+    "url": "mailto:info@wescodes.tech",
+    "icon": "mail",
+    "username": "info@wescodes.tech"
+  }
+]

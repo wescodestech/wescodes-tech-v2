@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "company": "T-Mobile",
+    "position": "Senior Software Engineer",
+    "location": "Frisco, TX",
+    "startDate": "2021-06-01",
+    "endDate": "Present",
+    "description": "Technical lead for the Product Catalog platform supporting downstream ordering and provisioning systems.\n\nImpact: Improved system reliability, architected creative yet robust solutions, accelerated release velocity, and strengthened compliance posture for a core enterprise domain system.",
+    "achievements": [
+      "Led architecture and development of enterprise catalog system (Java, IBM Infosphere MDM).",
+      "Led development of new microservices and APIs to support catalog functionality.",
+      "Designed solutions to integrate AI capabilities into the catalog, introducing natural language querying for business analytics and development support.",
+      "Increased automated test coverage by 30% and established 80%+ coverage standards for new code.",
+      "Reduced deployment time 40–45% by re-architecting CI/CD pipelines and improving automation reliability.",
+      "Led 5–10 engineers during peak initiatives; drove code quality, architectural alignment, and delivery execution.",
+      "Directed incident response strategy and implemented long-term systemic fixes."
+    ],
+    "technologies": [
+      "Java",
+      "Node.js",
+      "TypeScript",
+      "Kubernetes",
+      "AWS",
+      "GitLab CI/CD",
+      "Oracle"
+    ],
+    "type": "full-time"
+  },
+  {
+    "id": "2",
+    "company": "CivicPlus",
+    "position": "Software Engineer",
+    "location": "Manhattan, KS",
+    "startDate": "2018-05-01",
+    "endDate": "2021-06-01",
+    "description": "Built SAAS solutions for local government.\n\nImpact: Standardized platform architecture, increased scalability, and reduced cross-team engineering duplication.",
+    "achievements": [
+      "Architected reusable React/Material UI component library adopted across product lines, doubling feature delivery speed.",
+      "Scaled PCI Level 1 payments platform to handle 500% transaction growth",
+      "Re-architected data layer to Azure SQL elastic pool; improved throughput and query efficiency under peak load.",
+      "Designed cross-product workflow/forms engine enabling shared infrastructure across the SaaS suite.",
+      "Led frontend modernization of CP Pay, delivering dashboards and improved transaction analytics.",
+      "Presented technical talks at internal and external conferences"
+    ],
+    "technologies": [
+      "C#",
+      ".Net Core",
+      "React",
+      "TypeScript",
+      "Azure",
+      "Microsoft SQL Server"
+    ],
+    "type": "full-time"
+  },
+  {
+    "id": "3",
+    "company": "Garmin",
+    "position": "Software Engineer",
+    "location": "Olathe, KS",
+    "startDate": "2013-05-01",
+    "endDate": "2018-05-01",
+    "description": "Developed solutions for Automotive OEM Architecture & Security.\n\nImpact: Strengthened security posture and improved performance/stability across large-scale automotive application deployments.",
+    "achievements": [
+      "Designed embedded security architecture for infotainment systems deployed to Honda, BMW, Chrysler, and Ford.",
+      "Conducted threat modeling, security reviews, and open-source dependency audits.",
+      "Developed cross-platform navigation SDK components (C++, Qt, JavaScript) across Windows, Linux, and Android.",
+      "Built embedded SQLite data abstraction layers for OEM infotainment systems.",
+      "Implemented automated unit testing pipelines (Google Test, Jenkins).",
+      "Served as release coordinator and OEM technical consultant during RFP engagements."
+    ],
+    "technologies": [
+      "C/C++",
+      "JavaScript",
+      "Qt",
+      "Jenkins",
+      "Python",
+      "SQL"
+    ],
+    "type": "full-time"
+  },
+  {
+    "id": "4",
+    "company": "ArcBest Technologies",
+    "position": "Programmer Analyst Intern",
+    "location": "Ft. Smith, AR",
+    "startDate": "2012-06-01",
+    "endDate": "2012-09-01",
+    "description": "Built",
+    "achievements": [
+      "Built production data generation tool for development testing.",
+      "Migrated legacy ASP application to C#/.NET.",
+      "Developed barcode-to-image processing service (PDF to TIFF)."
+    ],
+    "technologies": [
+      "C#",
+       ".Net",
+      "Visual Studio"
+    ],
+    "type": "Intern"
+  }
+]
