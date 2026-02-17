@@ -5,9 +5,9 @@
     "title": "Catalog Platform Enablement",
     "description": "Platform-wide modernization of the enterprise catalog system, including new microservices, APIs, and infrastructure",
     "longDescription": "Led platform-wide modernization of the enterprise catalog system, a critical component supporting downstream ordering and provisioning systems. The initiative included designing and implementing new microservices to enhance catalog functionality and re-architecting CI/CD pipelines to improve deployment efficiency.\n\nThe project resulted in improved system reliability, accelerated release velocity, and strengthened compliance posture. The new architecture supports future scalability and innovation while maintaining high standards for code quality and operational excellence. Additionally, I helped integrate major system upgrades, infrastucture, and security controls with passwordless SSO. These efforts saw a 60% faster data processing and 53% faster publishing performance with zero downtime or rollbacks during the transition.",
-    "image": "/images/projects/catalog-modernization.png",
+    "image": "/images/projects/catalog-modernization.webp",
     "images": [
-      "/images/projects/catalog-modernization.png"
+      "/images/projects/catalog-modernization.webp"
     ],
     "technologies": [
       "Java",
@@ -32,7 +32,7 @@
     "title": "Natual Language Querying for Catalog Data",
     "description": "Supporting business users and developers in interacting with catalog data using conversational language through AI-powered natural language querying capabilities.",
     "longDescription": "Designed and implemented AI-powered natural language querying capabilities for the enterprise catalog system, enabling business users and developers to interact with catalog data using conversational language.\n\nThe solution leverages OpenAI, Claude, and Snowflake language models to interpret user queries and translate them into structured database queries. This allows users to ask complex questions about catalog data without needing to understand the underlying data schema or write SQL or structure API calls. The integration has significantly improved accessibility and usability of catalog data, empowering teams to make data-driven decisions more efficiently and limit support request to the development team to generate more complex queries.",
-    "image": "/images/projects/catalog-ai.png",
+    "image": "/images/projects/catalog-ai.webp",
     "technologies": [
       "Java",
       "TypeScript",
@@ -55,7 +55,7 @@
     "title": "Cloud-Native Payment Transaction Growth",
     "description": "Re-architecting the CP Pay payments platform to a cloud-native architecture, enabling it to handle 500% transaction growth while improving performance and reliability.",
     "longDescription": "Led the re-architecture of the CP Pay payments platform to a cloud-native architecture, enabling it to handle 500% transaction growth while improving performance and reliability. The modernization effort included migrating the platform to Azure and adopting a microservices architecture.\n\nThe new architecture has significantly improved the scalability and resilience of the payments platform, allowing it to efficiently handle increased transaction volumes while maintaining high availability. Additionally, the modernization has enabled faster development cycles and easier maintenance, positioning CP Pay for continued growth and innovation in the local government payments space.",
-    "image": "/images/projects/cp-pay.png",
+    "image": "/images/projects/cp-pay.webp",
     "liveUrl": "https://www.civicplus.com/tools/civicplus-pay/",
     "technologies": [
       "C#",
@@ -80,7 +80,7 @@
     "title": "Establishing a Standardized UI Component Library for CivicEngage",
     "description": "Utilizing React and TypeScript to create a standardized UI component library for CivicEngage, improving consistency and developer efficiency across the platform.",
     "longDescription": "Established a standardized UI component library for CivicEngage using React and TypeScript, improving consistency and developer efficiency across the platform. The library includes a wide range of reusable components that adhere to accessibility standards and design guidelines.\n\nThe implementation of the UI component library has led to faster development cycles, improved user experience, and a more cohesive look and feel across the CivicPlus and CivicEngage platforms. It has also facilitated better collaboration between design and development teams, ensuring that new features are implemented with a consistent visual language and high-quality user interface across dozens of applications.",
-    "image": "/images/projects/cp-react.png",
+    "image": "/images/projects/cp-react.webp",
     "technologies": [
       "React",
       "TypeScript",
