@@ -12,6 +12,7 @@ const skillIconMap: Record<string, string> = {
   'TypeScript': 'typescript',
   'C#': 'sharp',
   'C/C++': 'cplusplus',
+  'Python': 'python',
   'Next.js': 'nextdotjs',
   'Node.js': 'nodedotjs',
   'React': 'react',
@@ -25,6 +26,9 @@ const skillIconMap: Record<string, string> = {
   'Apache Kafka': 'apachekafka',
   'Elasticsearch': 'elasticsearch',
   'Git': 'git',
+  'OpenAI': 'openai',
+  'Claude': 'anthropic',
+  'FastAPI': 'fastapi'
 }
 
 export default function SkillCard({ skill }: SkillCardProps) {

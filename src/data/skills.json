@@ -9,11 +9,15 @@
         { "name": "TypeScript" },
         { "name": "C#" },
         { "name": "C/C++" },
+        { "name": "Python" },
         { "name": "Next.js" },
         { "name": "Node.js" },
         { "name": "React" },
         { "name": "Angular" },
-        { "name": "Spring Boot" }
+        { "name": "Spring Boot" },
+        { "name": "FastAPI"},
+        { "name": "OpenAI" },
+        { "name": "Claude" }
       ]
     },
     {

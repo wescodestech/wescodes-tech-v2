@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import Section from '@/components/ui/Section'
 import Card from '@/components/ui/Card'
 import SocialLinks from '@/components/contact/SocialLinks'
@@ -40,13 +39,12 @@ export default function AboutPage() {
             <div className="flex flex-col md:flex-row gap-8 items-start">
               {/* Profile Image */}
               <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center text-white text-6xl font-bold flex-shrink-0 mx-auto md:mx-0">
-                <Image
-                  src={profileData.profileImage}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/profile.webp"
                   alt={profileData.name}
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover w-full h-full"
+                  fetchPriority="high"
                 />
               </div>
 

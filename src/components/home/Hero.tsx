@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, Mail } from 'lucide-react'
 import Button from '@/components/ui/Button'
@@ -111,13 +110,12 @@ export default function Hero() {
 
               {/* Profile picture with white border and shadow */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-8 border-white shadow-2xl bg-gradient-to-br from-primary-500 to-secondary-500">
-                <Image
-                  src={profileData.profileImage}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/profile.webp"
                   alt={profileData.name}
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover w-full h-full"
+                  fetchPriority="high"
                 />
               </div>
             </div>
